@@ -4,3 +4,6 @@ def CheckEven(num):
         return True
     else:
         return False
+
+n = int(input('Enter number = '))
+print(CheckEven(n))
