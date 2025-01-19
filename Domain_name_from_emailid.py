@@ -1,0 +1,5 @@
+emailid = input('Enter email id = ')
+atrete = emailid.find('@')
+print(atrete)
+print('User id      : ',emailid[:atrete])
+print('Domain Name  : ',emailid[atrete + 1:])

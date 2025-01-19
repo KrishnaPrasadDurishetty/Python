@@ -1,0 +1,6 @@
+mydate = input('Enter date in dd/mm/yy format = ')
+L = mydate.split('/')
+print(L)
+print('Day = ',L[0])
+print('Month = ',L[1])
+print('Year = ',L[2])
